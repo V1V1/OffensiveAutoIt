@@ -13,6 +13,11 @@
  Script Function:
 	Periodically monitors the clipboard for text and prints the content to stdout.
 
+ Notes:
+	_ClipBoard_GetDataEx would be a much better choice than _GetClipboardData 
+	if you're interested in getting more than just text from the clipboard.
+	Thanks to rcmaehl (https://github.com/rcmaehl) for the tip.
+
 #ce --------------------------------------------------------------------------------
 
 ; Title
