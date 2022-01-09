@@ -166,6 +166,8 @@ Unfortunately, you can't use `AutoIt3.exe` to execute an AutoIt script with incl
 
 ![Script include error](./Images/script-include-error.png)
 
+> **NOTE:** I was wrong about this. You can actually use the [Au3Stripper](https://www.autoitscript.com/autoit3/scite/docs/SciTE4AutoIt3/Au3Stripper.html) utility included in SciTE4AutoIt to combine both your script and any referenced include files into a single source file. You can access Au3Stripper by bringing up SciTE4AutoIt's compile menu (`Ctrl+F7`). The combined source file (scriptName_stripped.au3) will be placed in the same directory as your original script. Hat tip to [rcmaehl](https://github.com/rcmaehl) for the correction.
+
 The problem is includes are pretty important since they add a lot of useful functionality to AutoIt scripts e.g. [Windows API functions](https://www.autoitscript.com/autoit3/docs/libfunctions/WinAPI%20Management.htm). But there's a way around this.<br>
 Compile the script with the `.a3x` extension; this format builds a single file that contains the script itself and all referred #include files.
 
