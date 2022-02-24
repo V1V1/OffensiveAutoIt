@@ -22,7 +22,7 @@ Offensive tooling notes and experiments in [AutoIt v3](https://www.autoitscript.
     - [YARA rules](#yara-rules)
     - [Miscellaneous](#miscellaneous)
   * [Blog posts](#blog-posts)
-  * [Interesting AutoIt projects](#interesting-autoit-projects)
+  * [AutoIt project references](#autoit-project-references)
 
 ## Why AutoIt?
 
@@ -422,6 +422,7 @@ Resources to help with detection.
 
 - EQL rule - [Renamed AutoIt Scripts Interpreter](https://www.elastic.co/guide/en/security/current/renamed-autoit-scripts-interpreter.html)
 - Video - [FSec2017: Hiding Malware Payloads With Autoit by Vanja Svajcer](https://www.youtube.com/watch?v=qrXUTAIhbgo)
+- Video - [BSidesLV 2021: Analyzing AutoIt Malware: Tools and Techniques by Chris Neal](https://www.youtube.com/watch?v=iVtPznzM3fA&ab_channel=BSidesLV)
 
 ## Blog posts
 
@@ -430,7 +431,7 @@ Just some blog posts I've found (or written) about AutoIt tradecraft.
 - https://thevivi.net/blog/pentesting/2021-11-24-autoitmating-your-dotnet-tradecraft/
 - https://blog.usejournal.com/red-team-diary-entry-3-custom-malware-development-establish-a-shell-through-the-browser-bed97c6398a5 
 
-## AutoIt projects references
+## AutoIt project references
 
 Projects built in/for Autoit - not necessarily security related.
 - https://www.autoitscript.com/forum/topic/188158-net-common-language-runtime-clr-framework/ (.NET in AutoIt)
